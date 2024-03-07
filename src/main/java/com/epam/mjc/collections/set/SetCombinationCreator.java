@@ -15,6 +15,7 @@ public class SetCombinationCreator {
             if (!secondSet.contains(third) && !firstSet.contains(third)) {
                 resultSet.add(third);
             }
+
         }
         return resultSet;
     }
